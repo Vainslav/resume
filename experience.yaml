@@ -1,0 +1,81 @@
+personal:
+  name: Вайнштейн Владислав
+  email: vainshteinvlad@gmail.com
+  site: github.com/Vainslav
+  tg: TestBean
+  
+education:
+  - name: Университет ИТМО
+    degree: Бакалавриат Системное и Прикладное программное обеспечение
+    location: Санкт-Петербург
+    date: Сентябрь 2023 - Сейчас
+    
+experience:
+  - role: Инженер по тестированию программного обеспечения
+    name: ООО "Лаксо"
+    location: Санкт-Петербург
+    date: Май 2026 - Сейчас
+    points:
+      - Тестирование CRM системы
+      - Тестирование расширений для CRM системы (на Spring Boot)
+      - Написание автотестов на Spring Test для API расширенией (JUnit 5)
+  - role: Стажер по обеспечению качества
+    name: ООО ТЦР
+    location: Санкт-Петербург
+    date: Сен 2025 - Дек 2026
+    points:
+      - Тестирование API и Front для сервисов предназначенных для внутреннего документаоборота
+      - Написание автотестов на Spring Test для API (JUnit 5)
+      - Взаимодействие с системой хранения тестов Allure
+      - Улучшение CI для прогона автоматизированных тестов
+projects:
+  - name: DRG Solutions
+    skills: Java, Spring Boot, Spring Cloud, React
+    link: https://github.com/Vlod-Company/drg-solutions
+    points:
+      - Разработал корпоративное приложение, построенное на микросервисной архитектуре, для корпорации Deep Rock Galactic (из одноимённой игры)
+      - Использовал инструменты Spring Cloud, такие как Service Discovery и Feign Client
+      - Протестировал работоспособность системы
+      - Привел диаграммы системы для её анализа (архитектурная и диаграмма данных)
+  - name: BLPS-CRUD
+    skills: Java, Spring Boot, Camunda, Active MQ, Docker, Jakarta Connectors, JMS
+    link: https://github.com/Vlod-Company/BLPS-CRUD
+    points:
+      - Разработал приложение, эмитирующее бизнес процесс покупки билета в Aviasales
+      - Нарисовал диаграмму бизнес процесса в системе в стандарте BPMN 2.0
+      - Интегрировался с микросервисом через JMS и Active MQ
+      - Интегрировался с CRM системой использую API JCA и Resource Adapter архив, который тоже был реализован
+      - Перенёс управление бизнес процессом на движок Camunda 7.24
+  - name: MVCC Database
+    skills: Rust, Axum, Java, JUnit 5, Github Actions
+    link: https://github.com/Vainslav/MVCC-db
+    points:
+      - Разработал библиотеку для In-Memory базы данных с полной поддержкой ACID транзакций и всех уровней изоляции из стандарта SQL
+      - Для поддержки изоляции транзакций был реализован MVCC метод
+      - Разработал тестовое покрытие и написал автоматизированные тесты на Java Spring Test
+      - Подключил CI (Github Actions), для автоматического тестирование и линтинга
+  - name: Rustcrehensions
+    skills: Rust, quote, syn
+    link: https://github.com/Vainslav/rustcrehensions
+    points:
+      - Разработал библеотеку для Python-like comprehension макросов в Rust
+      - Протестировал работу на отдельном crate
+
+achievements:
+  - name: СФУ Бельчонок программирование
+    status: Призёр 3 степени
+    date: 2022/2023 учебный год
+
+courses:
+  - name: Студкемп Яндекс УРФУ "Робототехника и ИИ"
+    date: сен 2024
+
+skills:
+  - category: Языки
+    skills: Java, Python, Rust, SQL (Postgres), JavaScript, Erlang, Elixir
+  - category: Фреймворки
+    skills: Spring, Spring Data, Spring Web, Spring Security, Spring Boot, Spring Cloud, Flask, JUnit, Mockito
+  - category: Инструменты
+    skills: Git, Github Actions, Maven, Gradle, Docker, Postgres, Cassandra DB, Active MQ, Kafka, RabbitMQ, Allure, Camunda
+  - category: Библиотеки
+    skills: JMS, JCA
